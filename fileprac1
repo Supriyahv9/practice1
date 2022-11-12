@@ -2,3 +2,7 @@ WebDriver driver = new ChromeDriver();
 driver.get("https://www.irctc.com/about.html");
 driver.quit();
 driver.manage().window().maximize();
+driver.manage().window().minimize();
+driver.manage().window().fullscreen();
+driver.manage().window().maximize();
+
